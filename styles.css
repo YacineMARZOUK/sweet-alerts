@@ -1,0 +1,134 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+  
+  .navbar .logo {
+    color: #a29bfe;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar .navlinks {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar .navlinks li a {
+    color: #a29bfe;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar .nav-links li a:hover {
+    color: #00cec9;
+  }
+  
+  /* Header Styling */
+  .header {
+    background-color: #74b9ff;
+    color: #a29bfe;
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(to right, #74b9ff, #febaa2);
+  }
+  
+  
+  
+  .header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  
+  
+  .btnSW{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+  }
+  .btnSW .sweetss{
+    background-color: #0984e3;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+  }
+  .btnSW .sweetss:hover{
+    background-color: #74b9ff;
+  }
+  /*sssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .popup-content p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #09e352;
+  }
+  
+  .popup-content .close-popup {
+    background-color: #09e352;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .popup-content .close-popup:hover {
+    background-color: #244830;
+  }
